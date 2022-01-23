@@ -34,11 +34,6 @@ class FCFS(Algorithm):
                                 self.queue_ready.append(p)
 
             else:         
-                # for i in range(self.init_starting_index, len(self.processes)):
-                #     if self.processes[i].arrival_time <= self.time:
-                #         self.queue_running.append(self.processes[i])
-                #         self.init_starting_index += 1
-
                 for i in range(self.init_starting_index, self.no_processes):
                     if self.processes[i].arrival_time <= self.time:
                         self.queue_ready.append(self.processes[i])
