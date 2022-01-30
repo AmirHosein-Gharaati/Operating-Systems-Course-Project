@@ -8,6 +8,7 @@ if __name__ == '__main__':
 
     menu = "Please enter your algorithm:\n 1.FCFS\n 2.Round Robin\n 3.SJF\n 4.MLFQ\n"
 
+
     print(menu)
 
     choice = input()
