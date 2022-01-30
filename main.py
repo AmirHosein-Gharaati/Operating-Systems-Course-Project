@@ -19,7 +19,7 @@ if __name__ == '__main__':
         p.generate_output()
 
     elif choice == "2":
-        p = RoundRobin(time_quantum=16)
+        p = RoundRobin(time_quantum=5)
         p.read_csv('proces_inputs.csv')
         p.run()
         p.generate_output()
